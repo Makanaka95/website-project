@@ -76,7 +76,11 @@ section ul li {
 }
 
 #subscription ul li {
-  background: #f9f9f9;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
