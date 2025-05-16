@@ -69,10 +69,11 @@ section ul li {
 
 #subscription ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
+  gap: 1rem;
 }
 
 #subscription ul li {
@@ -84,7 +85,7 @@ section ul li {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
-  margin: 1rem;
+  margin: 0;
   width: 30%; /* Adjust width as needed */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
